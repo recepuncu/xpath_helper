@@ -1,7 +1,7 @@
 # PHP XPath Helper
 
 ```php
-require_once 'src/xpath_helper.php';
+require 'src/xpath_helper.php';
 
 $xpath_helper = new xpath_helper();
 $contents = $xpath_helper->get_contents("http://www.google.com/search?hl=tr&q=samsung");
